@@ -1,0 +1,4 @@
+{
+    "debug.inlineValues": "on",
+    "debugpy.showPythonInlineValues": true
+}
