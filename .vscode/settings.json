@@ -1,4 +1,8 @@
 {
     "debug.inlineValues": "on",
-    "debugpy.showPythonInlineValues": true
+    "debugpy.showPythonInlineValues": true,
+    "ty.inlayHints.callArgumentNames": false,
+    "ty.inlayHints.variableTypes": false,
+    "workbench.editor.labelFormat": "medium",
+    "zenMode.centerLayout": false
 }
