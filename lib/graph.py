@@ -113,7 +113,7 @@ class Graph:
 
         Supports negative weights, but not negative cycles. Returns `None` if a negative cycle is detected.
         """
-        distances = [[inf] for _ in range(self.size)] * self.size
+        distances = [[inf for _ in range(self.size)] for _ in range(self.size)]
 
         for node in range(self.size):
             distances[node][node] = 0
